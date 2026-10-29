@@ -1,0 +1,95 @@
+/* Professional IT portfolio design */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f4f7fb;
+  color: #243047;
+  line-height: 1.7;
+}
+
+header {
+  background: linear-gradient(135deg, #101c3a, #1769aa);
+  color: white;
+  text-align: center;
+  padding: 75px 20px;
+}
+
+header h1 {
+  font-size: clamp(2.2rem, 5vw, 3.5rem);
+  margin: 0 0 12px;
+  letter-spacing: -1px;
+}
+
+header p {
+  font-size: 1.15rem;
+  margin: 0 auto;
+  max-width: 700px;
+  color: #e0edff;
+}
+
+section {
+  background: white;
+  max-width: 950px;
+  margin: 28px auto;
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0 8px 28px rgba(25, 45, 80, 0.07);
+}
+
+h2 {
+  color: #1559a6;
+  font-size: 1.65rem;
+  margin-top: 0;
+  border-bottom: 2px solid #e3edfa;
+  padding-bottom: 10px;
+}
+
+p, li {
+  font-size: 1.02rem;
+}
+
+a {
+  color: #1263b5;
+  font-weight: 600;
+}
+
+a:hover {
+  color: #0a3970;
+}
+
+ul {
+  padding-left: 24px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+footer {
+  background: #101c3a;
+  color: #e0edff;
+  text-align: center;
+  padding: 25px 15px;
+  margin-top: 45px;
+}
+
+@media (max-width: 600px) {
+  header {
+    padding: 52px 18px;
+  }
+
+  section {
+    margin: 18px 12px;
+    padding: 23px 19px;
+    border-radius: 12px;
+  }
+}
