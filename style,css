@@ -407,7 +407,17 @@ footer p {
     padding: 22px;
   }
 }
-
+.profile-photo {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  border: 5px solid white;
+  outline: 3px solid #e78acb;
+  box-shadow: 0 8px 25px #7541a626;
+  margin-bottom: 20px;
+}
 
 
 
